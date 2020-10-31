@@ -28,9 +28,11 @@ public class RestfulServer{
         }
 
         //return all the properties of the requests coming in
-        private String HttpRequestToJson(Request request){
-        return "{\n"
-                + "\attributes\":\""
+        private String HttpRequ-estToJson(Request request){
+            System.out.println("Hello world");
+        System.out.println("Ew");
+
+        return "";
         }
         public static void main(String[] argv){
         RestfulServer restfulServer = new RestfulServer();
