@@ -27,7 +27,7 @@ public class RestfulServer{
         return HttpRequestToJson;
         }
 
-        //return all the properties of the requests coming in
+        //return all the properties of the requests coming in.
         private String HttpRequestToJson(Request request){
         return "{\n"
                 +
