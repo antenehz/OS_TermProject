@@ -21,14 +21,14 @@ public class RestfulServer{
         // mathod that implements a spark rout
         private String echoRequest(Request request, Response response){
         //set a response content type to application/json
-        response.type(contentType:"applcation/json");
+        response.type(contentType:"application/json");
         response.head("Access-Control-Allow-Origin", "*");
         response.status(200); // status is successful
         return HttpRequestToJson;
         }
 
         //return all the properties of the requests coming in
-        private String HttpRequ-estToJson(Request request){
+        private String HttpRequestToJson(Request request){
             System.out.println("Hello world");
         System.out.println("Ew");
 
